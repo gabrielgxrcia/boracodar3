@@ -1,28 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>boraCodar #3 - Tipos de Botão</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>boraCodar#3 - Tipos de Botão</title>
   </head>
   <body>
-    <div class="container">
-      <div class="test-desc">
-        <h1>Teste os botões</h1>
-        <span
-          >Interaja com os botões e observe a mudança de aparência e de
-          cursores</span
-        >
-      </div>
-      <div class="buttons">
-        <button class="purplebutton">INTERAJA COMIGO</button>
-        <button class="graybutton">INTERAJA COMIGO</button>
-        <button class="tertiary">
-          <img src="./images/tertiary.svg" alt="" />INTERAJA COMIGO
-        </button>
-      </div>
-    </div>
+    <main>
+      <section class="left-items">
+        <div class="left-items-title">
+          <h1 class="format-title">Tipos de botão</h1>
+          <p class="desc-title">
+            Dentro de um layout, botões servem para destacar ações importantes a
+            serem tomadas.
+          </p>
+          <p class="desc-title">
+            Acompanhe abaixo um exemplo de tipos e propiedades.
+          </p>
+        </div>
+        <div class="left-items-box">
+          <div class="box-title-horizontal">
+            <h4 class="title-horizontal">Botão primário</h4>
+            <h4 class="title-horizontal">Botão secundário</h4>
+            <h4 class="title-horizontal">Botão Terciário</h4>
+            <h4 class="title-horizontal">Cursor</h4>
+          </div>
+          <div class="box-title-vertical">
+            <h4 class="title-vertical">Default</h4>
+            <h4 class="title-vertical">Hover</h4>
+            <h4 class="title-vertical">Focus</h4>
+            <h4 class="title-vertical">Disabled</h4>
+            <h4 class="title-vertical">Loading</h4>
+            <h4 class="title-vertical">Movable</h4>
+          </div>
+          <div class="box-buttons">
+            <div class="buttons-primary">
+              <button class="default-primary">Default primary</button>
+            </div>
+            <div class="buttons-secundary">
+              <button class="default-secundary">Default secondary</button>
+            </div>
+            <div class="buttons-tertiary">
+              <button class="default-tertiary">Default Tertiary</button>
+            </div>
+            <div class="buttons-cursor">
+              <div class="cursor-img">
+                <img src="./images/cursor-default.svg" alt="" />
+              </div>
+              <div class="hover-primary">
+                <button class="primary-hover">Hover primary</button>
+              </div>
+              <div class="hover-secondary">
+                <button class="secondary-hover">Hover secondary</button>
+              </div>
+              <div class="hover-primary">
+                <button class="tertiary-hover">Hover tertiary</button>
+              </div>
+              <div class="cursor-hover">
+                <img src="./images/cursor-default.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <aside class="right-items">
+        <div class="right-items-title">
+          <h1 class="format-title">Teste os botões</h1>
+          <p class="desc-title-right">
+            Interaja com os botões e observe a mudança de aparência e de
+            cursores
+          </p>
+        </div>
+        <div class="right-buttons">
+          <button class="right-button-1">Interaja comigo</button>
+          <button class="right-button-2">Interaja comigo</button>
+          <button class="right-button-3">
+            <img src="./images/tertiary.svg" alt="" />Interaja comigo
+          </button>
+        </div>
+      </aside>
+    </main>
   </body>
 </html>
